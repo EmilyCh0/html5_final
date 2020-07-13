@@ -1,0 +1,159 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>INDEX</title>
+	<style type="text/css">
+body,td,th {
+	color: #000000;
+}
+body {
+	background-color: #FDF2E9;
+}
+	.main_container {
+		height: 800px;
+		width: 960px;
+		position: relative;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.logo {
+		height: 100px;
+		width: 100px;
+		margin-top: 0px;
+		margin-right: auto;
+		margin-bottom: 0px;
+		margin-left: auto;
+	}
+	.index_img {
+		display: block;
+		position: absolute;
+		visibility: visible;
+	}
+
+	.overlay {
+	  position: absolute;
+	  top: 0;
+	  bottom: 0;
+	  left: 0;
+	  right: 0;
+	  height: 100%;
+	  width: 100%;
+	  opacity: 0;
+	  transition: .5s ease;
+	  background-color: #7f99c4;
+	}
+
+	.index_img:hover .overlay {
+	  opacity: 1;
+	}
+
+	.text {
+	  color: white;
+	  font-size: 20px;
+	  position: absolute;
+	  top: 50%;
+	  left: 50%;
+	  -webkit-transform: translate(-50%, -50%);
+	  -ms-transform: translate(-50%, -50%);
+	  transform: translate(-50%, -50%);
+	  text-align: center;
+	}
+	.img_cafe_category{
+		padding: 0px;
+		position: absolute;
+        display: inline-block;
+		margin-left: 400px;
+		margin-top: 10px;
+	}
+	.img_cafe_location{
+		padding: 0px;
+		position: absolute;
+        display: inline-block;
+		margin-left: 400px;
+		margin-top: 400px;
+	}
+	.img_coffee{
+		padding: 0px;
+		position: absolute;
+        display: inline-block;
+		margin-top: 130px;
+		margin-left: 0px;
+	}
+	.img_myPage{
+		padding: 0px;
+		position: absolute;
+        display: inline-block;
+		margin-top: 400px;
+		margin-left: 170px;
+	}
+	.box1{
+    padding: 0px;
+    position: absolute;
+    display: inline-block;
+    margin-top: 230px;
+    margin-left: 750px;
+    background-color:#7E5C3D;
+			width: 200px;
+			height: 140px;
+		}
+	.box2{
+    padding: 0px;
+    position: absolute;
+    display: inline-block;
+    margin-top: 400px;
+    margin-left: 40px;
+    background-color:#AF8866;
+			width: 100px;
+			height: 80px;
+		}
+    </style>
+</head>
+
+<body>
+<div class="main_container">
+	<div class="logo"><a href="index.html"><img src="img/logo00.jpg" width="90" height="90" alt="main menu"/></a></div>
+	<div class="img_cafe_category">
+	<a href="cafe_category.html">
+		  <div class="index_img">
+		  <img src="img/index_category.jpg" width="320" height="360" alt=""/>
+			<div class="overlay">
+				<div class="text">Find your favorite Cafe!</div>
+			</div>
+		  </div>
+	  </a>
+	</div>
+	<div class="img_cafe_location">
+	<a href="comingsoon.html">
+		  <div class="index_img">
+			  <img src="img/index_location.jpg" alt="" width="480" height="240" />
+			<div class="overlay">
+				<div class="text">Find cafe in your area</div>
+			</div>
+		  </div></a>
+	</div>
+	<div class="img_coffee">
+	<a href="coffee.html">
+		  <div class="index_img">
+		  <img src="img/index_coffee.jpg" alt="" width="370" height="240"/>
+			<div class="overlay">
+				<div class="text">Coffee by Origin</div>
+			</div>
+		  </div>
+	  </a>
+	</div>
+  <div class="img_myPage">
+	<a href="login.html">
+		  <div class="index_img">
+		  <img src="img/index_mypage.jpg" alt="" width="200" height="160" />
+			<div class="overlay">
+				<div class="text">My Favorite</div>
+			</div>
+		  </div>
+    </a>
+	</div>
+  <div class="box1"></div>
+	<div class="box2"></div>
+</div>
+</body>
+</html>

@@ -1,0 +1,237 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Coffee Sachon Roasters</title>
+ <style>
+	body {
+	background-color: #FDF2E9;
+}
+	.main_container {
+		height: 920px;
+		width: 960px;
+		position: relative;
+		margin-left: auto;
+		margin-right: auto;
+	}
+  .categoryButton{
+    float: left;
+    margin-top: 12px;
+    margin-left: 120px;
+  }
+	 .logo {
+		height: 100px;
+		width: 100px;
+		margin-top: 0px;
+		margin-right: auto;
+		margin-bottom: 0px;
+		margin-left: auto;
+	}
+	.img_container {
+    	height: 480px;
+    	width: 720px;
+		position: relative;
+		margin-left: auto;
+		margin-right: auto;
+		overflow: hidden;
+	}
+	img {
+		opacity: 1;
+		display: block;
+		transition: .5s ease;
+		backface-visibility: hidden;
+	  vertical-align: middle;
+	}
+	 .textBox{
+		 background-color: white;
+		 transition: .5s ease;
+		  opacity: 0;
+		  position: absolute;
+		 width: 100%;
+		 height: 100px;
+		  top:90%;
+		  left: 50%;
+		  transform: translate(-50%, -50%);
+		  -ms-transform: translate(-50%, -50%);
+		  text-align: center;
+	 }
+	 .text{
+		  color: black;
+		  font-size: 25px;
+		  padding: 16px 32px;
+	 }
+	.mySlides {
+	  display: none;
+	}
+	 .mySlides:hover .textBox{
+		 opacity: 0.9;
+	 }
+	 .mySlides:hover .text{
+		 opacity: 1;
+	 }
+
+	.cursor {
+	  cursor: pointer;
+	}
+
+	.prev,
+	.next {
+	  cursor: pointer;
+	  position: absolute;
+	  top: 40%;
+	  width: auto;
+	  padding: 16px;
+	  margin-top: 0px;
+	  color: white;
+	  font-weight: bold;
+	  font-size: 20px;
+	  border-radius: 0 3px 3px 0;
+	  user-select: none;
+	  -webkit-user-select: none;
+	  background-color: rgba(255,255,255,0.51)
+	}
+
+	.next {
+	  right: 0;
+	  border-radius: 3px 0 0 3px;
+	}
+
+	.prev:hover,
+	.next:hover {
+	  background-color: rgba(0, 0, 0, 0.8);
+	}
+
+	.numbertext {
+	  color: #f2f2f2;
+	  font-size: 16px;
+	  padding: 8px 12px;
+	  position: absolute;
+	  top: 0;
+	}
+
+	.caption-container {
+	  text-align: center;
+	  background-color: #222;
+	  padding: 2px 16px;
+	  color: white;
+	  margin-left: auto;
+		margin-right: auto;
+	}
+
+	.row:after {
+	  content: "";
+	  display: table;
+	  clear: both;
+	}
+
+	.column {
+	  float: left;
+	  width: 16.66%;
+	}
+
+	.demo {
+	  opacity: 0.6;
+	}
+
+	 .active:hover{
+		 opacity: 0.6;
+	 }
+	.demo:hover {
+	  opacity: 1;
+	}
+ .slide_container {
+    height: 100px;
+    width: 960px;
+    margin-bottom: 0px;
+	 margin-top: 100px;
+	 overflow: hidden;
+}
+	 	 .icon{
+		 float: right;
+		 margin-top: 10px;
+		 margin-right: 110px;
+	 }
+ </style>
+</head>
+
+<body>
+<div class="main_container">
+  <div class="logo"><a href="index.html"><img src="img/logo00.jpg" width="90" height="90" alt="main menu"/></a></div>
+  <div class="img_container">
+	 <div class="mySlides">
+    <div class="numbertext">1 / 2</div>
+    <img src="img/mamma01.jpg" style="width:100%" >
+		 <div class="textBox"><div class="text">Coffee Sachon Roasters</br>#Everyday Roasting #Cozy</div></div>
+  </div>
+	  <div class="mySlides">
+    <div class="numbertext">2 / 2</div>
+    <img src="img/mamma_menu.jpg" style="width:100%">
+		  <div class="textBox"><div class="text">메뉴</div></div>
+  </div>
+	  <div class="mySlides">
+
+	 <a class="prev" onclick="plusSlides(-1)">❮</a>
+  	 <a class="next" onclick="plusSlides(1)">❯</a>
+  </div>
+	</div>
+  <a href="cafe_category.html"><img src="img/back.jpg" width="140px" alt="" class="categoryButton"></a>
+	<img src="img/icon.JPG" alt="" width="179" height="34"  usemap="#addNew" class="icon"/>
+	<map name="addNew">
+        <area shape="rect" coords="170,30,100,0" href="comingsoon.html">
+      </map>
+<div class="slide_container">
+	<div class="row">
+
+    <div class="column">
+      <a href="mamma.html"><img class="demo cursor" src="img/mamma01.jpg" style="width:100%"  alt="#"></a>
+    </div>
+	<div class="column">
+      <a href="monogram.html"><img class="demo cursor" src="img/monogram.jpg" style="width:100%" alt="#"></a>
+    </div>
+		<div class="column">
+      <a href="factory.html"><img class="demo cursor" src="img/factory.jpg" style="width:100%" alt="#"></a>
+    </div>
+		<div class="column">
+      <a href="peropera.html"><img class="demo cursor" src="img/peropera.jpg" style="width:100%" alt="#"></a>
+    </div>
+		<div class="column">
+      <a href="blackrolls.html"><img class="demo cursor" src="img/blackrolls01.JPG" style="width:100%" alt="#"></a>
+    </div>
+
+    <div class="column">
+      <a href="genesis.html"><img class="demo cursor" src="img/genesis.JPG" style="width:100%"  alt="#"></a>
+    </div>
+  </div>
+  </div>
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+
+</body>
+</html>

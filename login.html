@@ -1,0 +1,166 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>login</title>
+<style type="text/css">
+body {
+    background-color: #FDF2E9;
+}
+	.main_container {
+		height: 960px;
+		width: 960px;
+		position: relative;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.logo {
+		height: 100px;
+		width: 100px;
+		margin-top: 0px;
+		margin-right: auto;
+		margin-bottom: 0px;
+		margin-left: auto;
+	}
+      .background{
+		position: relative;
+        width: 960px;
+        height: 600px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0px;
+      }
+      .box{
+        position: relative;
+        width: 800px;
+        height: 480px;
+		top: -540px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: black;
+        opacity:0.75;
+      }
+	   .text{
+        position: absolute;
+        top: 13%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+      }
+      .id{
+        position: absolute;
+        top: 35%;
+        left: 25%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        width: 200px;
+        height: 24px;
+      }
+      .password{
+        position: absolute;
+        top: 45%;
+        left: 25%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        width: 200px;
+        height: 24px;
+      }
+      .logIn{
+        position: absolute;
+        top: 60%;
+        left: 25%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        width: 200px;
+        height: 40px;
+      }
+      .remember{
+        position: absolute;
+        top: 67%;
+        left: 13%;
+        color: white;
+      }
+      .line{
+        position: absolute;
+        top: 55%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        height: 280px;
+        width: 2px;
+      }
+      .google{
+        position: absolute;
+        top: 35%;
+        left: 75%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        width: 200px;
+        height: 32px;
+      }
+      .facebook{
+        position: absolute;
+        top: 45%;
+        left: 75%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        width: 200px;
+        height: 32px;
+      }
+      .twitter{
+        position: absolute;
+        top: 55%;
+        left: 75%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        width: 200px;
+        height: 32px;
+      }
+      .signUp{
+        color: white;
+        position: absolute;
+        top: 90%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+      }
+      a: link{
+        color: blue;
+      }
+
+</style>
+</head>
+
+<body>
+<div class="main_container">
+  <div class="logo"><a href="index.html"><img src="img/logo00.jpg" width="90" height="90" alt="main menu"/></a></div>
+
+	<div class="background"><img src="img/login.jpg" class="background"/>
+	  <div class="box">
+    <img src="img/Account.JPG" class="text" alt=""/>
+
+    <form class="log" action="index.html" method="post">
+      <input class="id" type="text" name="id" value="Email or Username"/><br>
+      <input class="password" type="password" name="password" value="Password"/><br>
+    </form>
+
+    <a href="myPage.html"><img src="img/signin.JPG" class="logIn" alt=""/></a>
+
+    <form class="remember" method="post">
+      <input type="checkbox" name="remem">
+      <label for="remem">Remember Me!</label>
+      <h5><a href="#">forgot password?</a></h5>
+    </form>
+    <img src="img/line.JPG" class="line">
+    <img src="img/google.jpg" class="google">
+    <img src="img/facebook.jpg" class="facebook">
+    <img src="img/twitter.jpg" class="twitter">
+    <div class="signUp">
+      <h4>Need an account?&nbsp;&nbsp; <a href="#">Sign Up</a></h4>
+    </div>
+  </div>
+	</div>
+
+</div>
+</body>
+</html>

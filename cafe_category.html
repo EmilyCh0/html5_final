@@ -1,0 +1,191 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>cafe_category</title>
+<style type="text/css">
+body {
+	background-color: #FDF2E9;
+}
+.main_container {
+		height: 800px;
+		width: 960px;
+		position: relative;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.logo {
+		height: 100px;
+		width: 100px;
+		margin-top: 0px;
+		margin-right: auto;
+		margin-bottom: 0px;
+		margin-left: auto;
+	}
+	.index_img {
+		display: block;
+		position: absolute;
+		visibility: visible;
+	}
+
+	.overlay {
+	  position: absolute;
+	  top: 0;
+	  bottom: 0;
+	  left: 0;
+	  right: 0;
+	  height: 100%;
+	  width: 100%;
+	  opacity: 0;
+	  transition: .5s ease;
+	  background-color: #7f99c4;
+	}
+
+	.index_img:hover .overlay {
+	  opacity: 1;
+	}
+
+	.text {
+	  color: white;
+	  font-size: 20px;
+	  position: absolute;
+	  top: 50%;
+	  left: 50%;
+	  -webkit-transform: translate(-50%, -50%);
+	  -ms-transform: translate(-50%, -50%);
+	  transform: translate(-50%, -50%);
+	  text-align: center;
+	}
+	.study{
+		padding: 0px;
+		position: absolute;
+        display: inline-block;
+		margin-left: 330px;
+		margin-top: 10px;
+	}
+	.outdoor{
+		padding: 0px;
+		position: absolute;
+        display: inline-block;
+		margin-left: -90px;
+		margin-top: 340px;
+	}
+	.food{
+		padding: 0px;
+		position: absolute;
+        display: inline-block;
+		margin-top: 110px;
+		margin-left: 0px;
+	}
+	.pet{
+		padding: 0px;
+		position: absolute;
+        display: inline-block;
+		margin-top: 90px;
+		margin-left: 610px;
+	}
+	.photo{
+		padding: 0px;
+		position: absolute;
+        display: inline-block;
+		margin-top: 320px;
+		margin-left: 600px;
+	}
+	.friend{
+		padding: 0px;
+		position: absolute;
+        display: inline-block;
+		margin-top: 340px;
+		margin-left: 360px;
+	}
+	.box1{
+
+    padding: 0px;
+    position: absolute;
+    display: inline-block;
+    margin-top: 170px;
+    margin-left: 820px;
+    background-color:#7E5C3D;
+			width: 220px;
+			height: 120px;
+		}
+	.box2{
+    padding: 0px;
+    position: absolute;
+    display: inline-block;
+    margin-top: 550px;
+    margin-left: 610px;
+    background-color:#AF8866;
+			width: 90px;
+			height: 50px;
+		}
+    </style>
+</head>
+
+<body>
+<div class="main_container">
+	<div class="logo"><a href="index.html"><img src="img/logo00.jpg" width="90" height="90" alt="main menu"/></a></div>
+	<div class="study">
+	<a href="monogram.html">
+		  <div class="index_img">
+		  <img src="img/study.png" width="250" height="300" alt=""/> 
+			<div class="overlay">
+				<div class="text">#Alone #Study #Quiet </div>
+			</div>
+		  </div>
+	  </a>
+	</div>
+	<div class="outdoor">
+	<a href="holymolly.html">
+		  <div class="index_img">		  
+			  <img src="img/outdoor.jpg" alt="" width="420" height="200" />
+			<div class="overlay">
+				<div class="text">#Outdoor</div>
+			</div>
+		  </div></a>
+	</div>	
+	<div class="food">
+	<a href="blackrolls.html">
+		  <div class="index_img">
+		  <img src="img/food.jpg" alt="" width="300" height="200"/>
+			<div class="overlay">
+				<div class="text">#Brunch #Delicious </div>
+			</div>
+		  </div>
+	  </a>
+	</div>
+  <div class="pet">
+	<a href="peropera.html">
+		  <div class="index_img">
+		  <img src="img/pet.png" alt="" width="180" height="200" />
+			<div class="overlay">
+				<div class="text">#With pet #Dog #Cat</div>
+			</div>
+		  </div>
+    </a>
+	</div>
+	<div class="photo">
+	<a href="blackrolls.html">
+		  <div class="index_img">
+		  <img src="img/photo.png" alt="" width="330" height="200"/>
+			<div class="overlay">
+				<div class="text">#PhotoSpot </div>
+			</div>
+		  </div>
+	  </a>
+	</div>
+	<div class="friend">
+	<a href="factory.html">
+		  <div class="index_img">
+		  <img src="img/friend.jpg" alt="" width="220" height="300"/>
+			<div class="overlay">
+				<div class="text">#With Friend #Spacious </div>
+			</div>
+		  </div>
+	  </a>
+	</div>
+  <div class="box1"></div>
+	<div class="box2"></div>
+</div>
+</body>
+</html>

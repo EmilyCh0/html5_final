@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Coffee by origin</title>
+    <link rel="stylesheet" href="img/jquery.lightbox-0.5.css"/>
+    <script src="http://code.jquery.com/jquery-3.1.1.js"></script>
+    <script src="img/jquery.lightbox-0.5.js"></script>
+    <script>
+      $(document).ready(function(){
+        $('a.light').lightBox();
+      });
+    </script>
+    <style media="screen">
+      body{
+        background-color: #FDF2E9;
+      }
+	.main_container {
+		height: 800px;
+		width: 960px;
+		position: relative;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.logo {
+		height: 100px;
+		width: 100px;
+		margin-top: 0px;
+		margin-right: auto;
+		margin-bottom: 0px;
+		margin-left: auto;
+	}
+
+  .text{
+    
+    position: absolute;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 385px;
+    margin-top: 10px;
+		margin-left: 0px;
+    border: 2px;
+    border-color: #7f99c4;
+    border-style: outset;
+  }
+		.background{
+		position: relative;
+        width: 960px;
+        height: 600px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 120px;
+      }
+      .map{
+        width: 960px;
+        height: 550px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0px;
+
+      }
+      .costarica{
+        position: absolute;
+        display: inline-block;
+        margin-left: 150px;
+        margin-top: -250px;
+        width: 120px;
+        border-color: black;
+      }
+      .ethiopia{
+        position: absolute;
+        display: inline-block;
+        margin-left: 500px;
+        margin-top: -250px;
+        width: 100px;
+      }
+      .indonesia{
+        position: absolute;
+        display: inline-block;
+        margin-left: 700px;
+        margin-top: -200px;
+        width: 110px;
+      }
+      .kenya{
+        position: absolute;
+        display: inline-block;
+        margin-left: 520px;
+        margin-top: -220px;
+        width: 70px;
+      }
+      .colombia{
+        position: absolute;
+        display: inline-block;
+        margin-left: 230px;
+        margin-top: -200px;
+        width: 100px;
+      }
+    </style>
+  </head>
+<body>
+    <div class="main_container">
+      <div class="logo"><a href="index.html"><img src="img/logo00.jpg" width="90" height="90" alt="main menu"/></a></div>
+      <div class="text">
+        <img src="img/map_text.jpg" width="550px" height="80px" alt="">
+      </div>
+    <div class="background">
+      <img src="img/map.png" class="map">
+      <a href="img/costaricaInfo.jpg" class="light"><img src="img/costarica.jpg" class="costarica"/></a>
+      <a href="img/ethiopiaInfo.jpg" class="light"><img src="img/ethiopia.jpg" class="ethiopia"/></a>
+      <a href="img/indonesiaInfo.jpg" class="light"><img src="img/indonesia.jpg" class="indonesia"/></a>
+      <a href="img/colombiaInfo.jpg" class="light"><img src="img/colombia.jpg" class="colombia"/></a>
+      <a href="img/kenyaInfo.jpg" class="light"><img src="img/kenya.jpg" class="kenya"/></a>
+
+    </div>
+    </div>
+
+</body>
+</html>
